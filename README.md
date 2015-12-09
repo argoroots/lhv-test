@@ -12,17 +12,14 @@ First we need to install Bower, Grunt (with its components) and download web fra
 npm install -g grunt-cli bower
 npm install
 bower install
-
 ```
 
 To build index.html use the following shell command:
 ```
 grunt build
-
 ```
 
 Grunt can also track file changes, automatically rebuild index.html and serve this site in [localhost:4000](). All for dead easy development. Just use the following shell command:
 ```
 grunt
-
 ```
