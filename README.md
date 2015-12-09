@@ -7,7 +7,7 @@ Some key points how all this is done:
 - Everything is processed, converted and minified into one index.html with [Grunt](http://gruntjs.com) -  I'm too lazy to not automate everything.
 
 ## Some development tips
-First we need to install Bower, Grunt (with its components) and download web frameworks with Bower. Inside project folder do some shell magic:
+First we need to install Bower, Grunt (with its components) and download web frameworks with Bower (you need [Node.js](https://nodejs.org) and npm for this). Inside project folder do some shell magic:
 ```
 npm install -g grunt-cli bower
 npm install
